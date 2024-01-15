@@ -35,11 +35,11 @@
 }
 nav {
   justify-content: center;
-  margin-left: 160px;
+  margin-left: -20px;
+  display: flex;
 }
 nav a {
-  display: flex;
-  margin: 30px 0px 0px 20px;
+  margin: 0px 0px 0px 20px;
   margin-left: 10px;
   justify-content: center;
   text-decoration: none;
@@ -54,11 +54,11 @@ nav a {
   margin-left: 10px;
 }
 .contact {
-  margin-left: 300px;
+  margin-left: 100px;
   border-radius: 20px;
   border: none;
   padding: 10px 20px 10px 20px;
-  background: #fbf7ec;
+  background: #756BEE;;
   color: white;
   margin-top: -5px;
 }
@@ -778,7 +778,9 @@ font-family: "Outfit", sans-serif;
 nav {
   color: #BDBEC8;
   text-align: left;
-  padding-left: 200px;
+  padding-left: 20px;
+  display: flex;
+  margin-left: -700px;
 }
 .End {
   display: flex;
